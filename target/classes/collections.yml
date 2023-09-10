@@ -1,0 +1,30 @@
+collections:
+  test:
+    #Here you can set name of the event
+    name: test
+    #Here you set the number players need to collect
+    max: 500
+    #Don`t touch this!
+    paid: 0
+    #Here you can set commands
+    commands:
+      - "Here add a command"
+    item:
+      #Here you can set the item name
+      displayname: '&b&lYour Collection'
+      #Here you can set material if you want a custom head set this on PLAYER_HEAD and add line head-texture
+      material: DIRT
+      #Here is the slot of the item
+      slot: 13
+      #Here you can set lores for the item
+      lores:
+        - ''
+        - ' &7After reaching the final destination, the entire server'
+        - ' &7Receives &fHere your event &7for &fHere your time'
+        - ''
+        - ' &7Required number of shardss&8: &f{MAX}'
+        - ''
+        - ' &7In the collection&8: &f{PAID}&8/&f{MAX}'
+        - ' &7Progress&8: {START}&r{PROGRESS}{END}'
+        - ''
+        - '&aClick here to add some shards!'

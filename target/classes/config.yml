@@ -1,0 +1,48 @@
+permission: 'admin.golem'
+how_to_open_inventory:
+  entity:
+    enabled: true
+    entity: IRON_GOLEM
+  command:
+    enabled: true
+shards_for_kills:
+  enabled: true
+  chance: 0.1
+progress_style:
+  start: "&8["
+  symbol: "●"
+  colors:
+    1: "&a"
+    2: "&c"
+  end: "&8]"
+shard:
+messages:
+  #Types of messages:
+  #CHAT, TITLE, TITLE_SUBTITLE, SUBTITLE, ACTIONBAR, CHAT
+  no_permissions:
+    type: CHAT
+    message: "&cYou don`t have permissions to do this!"
+  correct_use:
+    type: CHAT
+    message: "&cUsage&8: &7/golem <list/create/delete/setshard> <name>"
+  create_event:
+    type: CHAT
+    message: "&aEvent {EVENT} has been created!"
+  delete_event:
+    type: CHAT
+    message: "&cEvent {EVENT} has been deleted!"
+  set_shard:
+    type: CHAT
+    message: "&aYou have successfully set this item as a shard!"
+  add_shard_to_event:
+    type: CHAT
+    message: "&aYou have added shard to a collection: &2{EVENT}"
+  you_dont_have_shard:
+    type: CHAT
+    message: "&cYou do not have a shard in your inventory"
+  event_is_full:
+    type: CHAT
+    message: "&cThe amount has already been deposited&8: &b{PAID}&8/&b{MAX} &cin a few seconds the reward will be given to the entire server!"
+  shard_for_kill:
+    type: TITLE
+    message: "&aYou killed player {PLAYER} and got a shard!"

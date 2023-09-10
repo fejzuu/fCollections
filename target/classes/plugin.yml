@@ -1,0 +1,14 @@
+name: fGolem
+version: '1.0-SNAPSHOT'
+main: org.fejzu.golem.Plugin
+api-version: '1.16'
+
+author: fejzu
+website: www.fejzu.pl
+
+commands:
+  collections:
+  collection:
+    aliases:
+      - zbiorka
+      - zrzutka
